@@ -1,5 +1,5 @@
-SoftwareLab7 Django Project Template
-=======================================
+Django Project Template
+=======================
 
 *Instructions:*
 

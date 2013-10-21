@@ -1,0 +1,28 @@
+# Project Specifics
+media/
+assets/
+
+# Python bytecode:
+*.py[co]
+
+# Packaging files:
+*.egg*
+
+# Editor files:
+*.swp
+*.bak
+*.tmp
+*~
+.settings
+.project
+.pydevproject
+
+# Sphinx docs:
+build
+
+# Database files:
+*.sql
+*.db
+
+# Logs:
+*.log

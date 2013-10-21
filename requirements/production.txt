@@ -1,0 +1,5 @@
+# Production dependencies go here.
+-r base.txt
+coverage==3.6
+django-jenkins==0.14.1
+gunicorn==0.17.4

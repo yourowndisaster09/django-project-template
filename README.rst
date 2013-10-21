@@ -13,7 +13,7 @@ SoftwareLab7 Django Project Template
     
 3. Start project using template
 
-    ``$ django-admin.py startproject --template=https://bitbucket.org/rbbustos/softwarelab7-project-template/get/master.zip --extension=py,rst,html project_name``
+    ``$ django-admin.py startproject --template=https://github.com/yourowndisaster09/django-project-template/archive/master.zip --extension=py,rst,html project_name``
     
 4. Install other dependencies depending on environment
 

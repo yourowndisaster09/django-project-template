@@ -1,0 +1,11 @@
+server {
+    listen 80 default;
+    server_name {{ project_name }}.ci.com;
+
+    access_log /var/log/nginx/jenkins.access.log;
+    error_log /var/log/nginx/jenkins.error.log;
+
+    location / {
+        proxy_pass http://127.0.0.1:8080;
+    }
+}

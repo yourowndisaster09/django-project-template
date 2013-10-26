@@ -31,7 +31,14 @@ SERVER_EMAIL = EMAIL_HOST_USER
 DATABASES = {}
 
 # CACHE CONFIGURATION
-CACHES = {}
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+        'LOCATION': '127.0.0.1:11211',
+        'KEY_PREFIX': '',
+        'TIMEOUT': 300
+    }
+}
 
 # SECRET CONFIGURATION
 SECRET_KEY = get_env_setting('SECRET_KEY')

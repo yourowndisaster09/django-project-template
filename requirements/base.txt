@@ -1,8 +1,9 @@
 Django==1.5.2
 Fabric==1.7.0
+South==0.8.2
 bpython==0.12
 django-braces==1.2.2
 django-htmlmin==0.6.2
 django-model-utils==1.4.0
 logutils==0.3.3
-South==0.8.2
+psycopg2==2.5.1

@@ -1,0 +1,6 @@
+# Ci dependencies go here.
+-r base.txt
+django-jenkins==0.14.1
+lettuce==0.2.19
+pep8==1.4.6
+pyflakes==0.7.3

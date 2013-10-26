@@ -1,7 +1,7 @@
-# Local development dependencies go here.
+# Development dependencies go here.
 -r base.txt
-Sphinx==1.2b1
-coverage==3.6
 django-cache-panel==0.1
 django-discover-runner==1.0
 django-debug-toolbar==0.9.4
+gunicorn==0.17.4
+python-memcached==1.53

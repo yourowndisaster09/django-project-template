@@ -18,6 +18,10 @@ server {
 		try_files $uri @proxy_to_app;
 	}
 
+    location /robots.txt {
+        alias /home/ubuntu/{{ project_name }}/tools/robots/robots.txt;
+    }
+
     location /static/ {
         alias /home/ubuntu/{{ project_name }}/{{ project_name }}/assets/;
         expires 30d;

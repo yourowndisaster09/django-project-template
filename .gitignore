@@ -1,7 +1,11 @@
-# Project Specifics
+# Project specifics:
 media/
 assets/
+
+# Test outputs:
 reports/
+htmlcov/
+*.coverage
 
 # Python bytecode:
 *.py[co]

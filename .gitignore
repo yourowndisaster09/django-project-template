@@ -1,6 +1,7 @@
 # Project Specifics
 media/
 assets/
+reports/
 
 # Python bytecode:
 *.py[co]

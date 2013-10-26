@@ -28,5 +28,12 @@ PROJECT_APPS = LOCAL_APPS
 JENKINS_TASKS = (
     'django_jenkins.tasks.with_coverage',
     'django_jenkins.tasks.run_pylint',
-    'django_jenkins.tasks.django_tests',
+    'django_jenkins.tasks.dir_tests',
+    'django_jenkins.tasks.run_pep8',
+    'django_jenkins.tasks.run_pyflakes',
+    'django_jenkins.tasks.run_jshint',
+    'django_jenkins.tasks.run_csslint',
+    'django_jenkins.tasks.run_sloccount',
 )
+JSHINT_CHECKED_FILES = STATICFILES_DIRS
+CSSLINT_CHECKED_FILES = STATICFILES_DIRS

@@ -1,6 +1,7 @@
 Django==1.5.2
 Fabric==1.7.0
 South==0.8.2
+Sphinx==1.2b1
 bpython==0.12
 django-braces==1.2.2
 django-htmlmin==0.6.2

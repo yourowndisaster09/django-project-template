@@ -9,6 +9,9 @@ from base import *
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
+# HOST CONFIGURATION
+ENV_HOST = '127.0.0.1:8000'
+
 # EMAIL CONFIGURATION
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 

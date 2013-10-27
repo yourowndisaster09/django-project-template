@@ -14,9 +14,6 @@ def get_env_setting(setting):
         error_msg = "Set the %s env variable" % setting
         raise ImproperlyConfigured(error_msg)
 
-# HOST CONFIGURATION
-ALLOWED_HOSTS = []
-
 # EMAIL CONFIGURATION
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = environ.get('EMAIL_HOST', 'smtp.gmail.com')

@@ -15,7 +15,8 @@ def get_env_setting(setting):
         raise ImproperlyConfigured(error_msg)
 
 # HOST CONFIGURATION
-ALLOWED_HOSTS = []
+ENV_HOST = '{{ project_name }}.staging.com'
+ALLOWED_HOSTS = [ENV_HOST]
 
 # EMAIL CONFIGURATION
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'

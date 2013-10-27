@@ -107,7 +107,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'htmlmin.middleware.HtmlMinifyMiddleware',
+    'pipeline.middleware.MinifyHTMLMiddleware',
 )
 
 ROOT_URLCONF = '%s.urls' % SITE_NAME
@@ -149,6 +149,7 @@ DJANGO_APPS = (
 
 THIRD_PARTY_APPS = (
     'south',
+    'pipeline',
 )
 
 LOCAL_APPS = (
@@ -185,3 +186,6 @@ LOGGING = {
         },
     }
 }
+
+# DJANGO-PIPELINE CONFIGURATION
+from pipeline import *

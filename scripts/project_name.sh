@@ -1,5 +1,5 @@
 alias pm="python manage.py"
-alias pmcs="python manage.py collectstatic"
+alias pmcs="python manage.py collectstatic --no-input"
 alias pmdbsh="python manage.py dbshell"
 alias pmdd="python manage.py dumpdata"
 alias pmld="python manage.py loaddata"
